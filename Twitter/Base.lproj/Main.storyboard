@@ -106,7 +106,7 @@
                                                 <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </buttonConfiguration>
                                             <connections>
-                                                <action selector="favoriteTweet:" destination="8J6-1J-hx7" eventType="touchUpInside" id="0L5-nh-9pb"/>
+                                                <action selector="favoriteTweet:" destination="8J6-1J-hx7" eventType="touchUpInside" id="SAg-58-Hj0"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRB-ut-fFA" userLabel="retweetButton">
@@ -124,8 +124,7 @@
                                                 <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </buttonConfiguration>
                                             <connections>
-                                                <action selector="favoriteTweet:" destination="8J6-1J-hx7" eventType="touchUpInside" id="UhA-xc-i2m"/>
-                                                <action selector="retweet:" destination="8J6-1J-hx7" eventType="touchUpInside" id="Go6-wN-93q"/>
+                                                <action selector="retweet:" destination="8J6-1J-hx7" eventType="touchUpInside" id="d96-f9-ktR"/>
                                             </connections>
                                         </button>
                                     </subviews>
@@ -145,9 +144,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="favButton" destination="nxk-EQ-DXz" id="T5d-Aj-QJg"/>
+                                    <outlet property="favButton" destination="nxk-EQ-DXz" id="c2e-Zj-Ldc"/>
                                     <outlet property="profileImageView" destination="w0p-E1-py7" id="U69-y7-eTg"/>
-                                    <outlet property="retweetButton" destination="IRB-ut-fFA" id="EAp-Tw-YcF"/>
+                                    <outlet property="retweetButton" destination="IRB-ut-fFA" id="VAf-cQ-oZH"/>
                                     <outlet property="tweetContent" destination="1eh-AJ-ley" id="zGK-k1-AKU"/>
                                     <outlet property="userNameLabel" destination="eV3-dA-73t" id="zE1-ja-Vfw"/>
                                 </connections>

@@ -55,20 +55,22 @@ class TweetCellTableViewCell: UITableViewCell {
         }
     }
     
-    
-    
     func setFavorite(_ isFavorited:Bool) {
         favorited = isFavorited
         if (favorited) {
             favButton.setImage(UIImage(named:"favor-icon-red"), for: UIControl.State.normal)
+//            favButton.isEnabled = false
         }
         else {
             favButton.setImage(UIImage(named:"favor-icon"), for: UIControl.State.normal)
+//            favButton.isEnabled = true
         }
     }
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        favButton.setTitle("", for: .normal)
+        retweetButton.setTitle("", for: .normal)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
